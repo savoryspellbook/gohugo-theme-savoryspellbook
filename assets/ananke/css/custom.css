@@ -23,12 +23,6 @@
     color: var(--text-color) !important;
 } */
 
-h1 {
-    font-family: athelas;
-}
-h2 {
-    font-family: athelas;
-}
 h3 {
     font-weight: bold;
 }
@@ -44,4 +38,11 @@ h3 {
 .content-wrapper img {
     margin-top: 10px; 
     margin-bottom: 10px; 
+}
+
+.recipe h2 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    padding-bottom: 5px;
 }
